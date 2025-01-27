@@ -1,0 +1,41 @@
+/* src/components/Hangman.css */
+.hangman {
+  text-align: center;
+  background-color: lightblue; /* Light blue background */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.word {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+.letter {
+  margin: 0 5px;
+  display: inline-block;
+}
+
+.letters {
+  margin: 20px 0;
+}
+
+.letter-button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 1em;
+  background-color: green; /* Green buttons */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.letter-button:disabled {
+  background-color: gray; /* Disabled button color */
+  cursor: not-allowed;
+}
+
+.notification {
+  margin: 20px 0;
+}
